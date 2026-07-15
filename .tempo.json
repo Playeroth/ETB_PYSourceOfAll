@@ -1,0 +1,41 @@
+{
+  "engine_info": {
+    "unreal_project_file": "C:/Users/Playeroth/Documents/GameModding/ETB_PYSourceOfAll/EscapeTheBackrooms.uproject",
+    "unreal_engine_major_version": 4,
+    "unreal_engine_minor_version": 27
+  },
+  "game_info": {
+    "game_exe_path": "C:/Program Files (x86)/Steam/steamapps/common/EscapeTheBackrooms/EscapeTheBackrooms/Binaries/Win64/Backrooms-Win64-Shipping.exe",
+    "launch_type": "exe",
+    "window_title_override": "EscapeTheBackrooms"
+  },
+  "git_info": {
+    "repo_branch": "master",
+    "repo_path": "."
+  },
+  "process_kill_events": {
+    "processes": [
+      {
+        "hook_state": "constant",
+        "process_name": "Fmodel",
+        "use_substring_check": true
+      },
+      {
+        "hook_state": "constant",
+        "process_name": "Umodel",
+        "use_substring_check": true
+      }
+    ],
+    "auto_close_game": true
+  },
+  "mods_info": {
+    "PYPeacefulMode_P": {
+      "compression_type": "Zlib",
+      "is_enabled": true,
+      "mod_name_dir_type": "Mods",
+      "packing_type": "unreal_pak",
+      "pak_dir_structure": "interpose_mods",
+      "mod_name_dir_name_override": "PYPeacefulMode"
+    }
+  }
+}
